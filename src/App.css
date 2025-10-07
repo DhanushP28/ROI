@@ -1,0 +1,107 @@
+/* App.css */
+
+/* Color Palette:
+   - Primary Blue: #3498db
+   - Dark Blue: #2c3e50
+   - Light Gray: #f7f9fc
+   - Card Background: #ffffff
+   - Results Background: #eaf2f8
+   - Positive: #27ae60 (green)
+   - Negative: #c0392b (red)
+*/
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f7f9fc;
+  color: #2c3e50;
+}
+
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+.form-container {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #34495e;
+}
+
+input {
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: 1px solid #bdc3c7;
+  font-size: 14px;
+  transition: border 0.2s, box-shadow 0.2s;
+}
+
+input:focus {
+  outline: none;
+  border-color: #2980b9;
+  box-shadow: 0 0 5px rgba(41, 128, 185, 0.4);
+}
+
+.results {
+  margin-top: 30px;
+  padding: 25px;
+  background-color: #eaf2f8;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.results h2 {
+  margin-top: 0;
+  color: #2c3e50;
+}
+
+.results p {
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+/* Dynamic coloring for values */
+.results .positive {
+  color: #27ae60; /* green */
+  font-weight: bold;
+}
+
+.results .negative {
+  color: #c0392b; /* red */
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 15px;
+  }
+
+  input {
+    font-size: 14px;
+  }
+
+  .results p {
+    font-size: 14px;
+  }
+}
+
