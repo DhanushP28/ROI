@@ -11,7 +11,6 @@ Technologies, Frameworks, and Database
 Frontend:React (Vite), CSS
 Backend:Node.js, Express
 Database:MongoDB (Compass for local testing)
-Deployment:Frontend on Vercel, Backend local or deployed on Render/Heroku
 Version Control:GitHub
 
 Key Features and Functionality
@@ -24,3 +23,4 @@ Key Features and Functionality
 Deliverable
 
 GitHub Repository: [https://github.com/DhanushP28/ROI]
+
