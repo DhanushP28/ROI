@@ -1,0 +1,26 @@
+Planned Documentation — Invoicing ROI Simulator
+Planned Approach and Architecture
+
+Frontend:Single-page React app (Vite) with CSS styling
+Backend:Node.js + Express to handle calculations and scenario storage
+Database:MongoDB (tested via Compass) to store saved scenarios
+Architecture:Frontend communicates with backend via REST API. Backend handles calculation logic using internal constants and stores/retrieves scenarios in MongoDB.
+
+Technologies, Frameworks, and Database
+
+Frontend:React (Vite), CSS
+Backend:Node.js, Express
+Database:MongoDB (Compass for local testing)
+Deployment:Frontend on Vercel, Backend local or deployed on Render/Heroku
+Version Control:GitHub
+
+Key Features and Functionality
+
+1. Quick Simulation:Input invoice volume, staff, wages, error costs, etc., and get immediate results for monthly savings, payback, and ROI.
+2. Scenario Management:Save, load, and delete named scenarios stored in MongoDB.
+3. Report Generation:Email-gated downloadable PDF/HTML report of results.
+4. Favorable Output:Backend uses bias factor to ensure automation shows positive ROI.
+
+Deliverable
+
+GitHub Repository: [Add your repository link here]
